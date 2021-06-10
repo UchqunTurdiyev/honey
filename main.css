@@ -20,6 +20,13 @@
         width:65%;
         margin:0 auto;
       }
+      .honey-it2{
+        flex-direction: column;
+    }
+    .honey-about2{
+        margin-top: 20px;
+    }
+    
 }
 
 
@@ -42,6 +49,37 @@
         width:65%;
         margin:0 auto;
       }
+      .honey-item{
+        flex-direction: column;
+        width:65%;
+        margin:0 auto;
+      }
+      .honey-it2{
+        flex-direction: column;
+    }
+    .hon2-it{
+        display: flex;
+       flex-direction: column;
+    }
+    .honey-about2{
+        margin-top: 10px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .honey-ab img{
+        display: none;
+    }
+    .img{
+        display: block;
+        background: url(./font-image/back-1.png);
+    }
+    .honey-ab h4{
+        margin: 30px 10px;
+        line-height: 25px;
+        font-size: 20px;
+        margin-top: 300px;
+    }
+   
 }
 
 

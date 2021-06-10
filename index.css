@@ -110,3 +110,55 @@ main{
     color:rgb(238, 181, 26);
     text-decoration: none;
 }
+
+.honey2 h1{
+    margin-top: 50px;
+    font-family: 'Satisfy', cursive;
+    margin-left: 20px;
+    font-weight:800;
+}
+
+.honey-it2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hon2-it{
+    display: flex;
+    justify-content: space-between;
+}
+.honey-it2{
+    display:flex;
+}
+.honey-about{
+    display:flex;
+    width:85%;
+}
+.honey-ab img{
+    margin: 20px;
+}
+.honey-ab h4{
+    margin: 30px 10px;
+    line-height: 25px;
+    font-size: 20px;
+}
+.honey-ab p{
+    margin: 20px 10px; 
+    color:#555;
+}
+.honey-about2{
+    margin-top: -120px;
+}
+
+.about-item{
+    margin-top: 20px;
+}
+.about-item h2{
+    font-family: 'Satisfy', cursive;
+    margin-left: 50px;
+}
+.about-item img{
+    width: 40px;
+    margin-bottom: -33px;
+}
+
