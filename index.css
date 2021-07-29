@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #hed{
     width: 100%;
 }
@@ -23,7 +24,9 @@
 header img{
     width:50px;
     align-items: center;
+    
 }
+
 nav ul{
     display: flex;
     align-items:center;
@@ -31,10 +34,31 @@ nav ul{
     margin: 10px 200px;
     list-style:none;
 }
+
 nav{
-    border:2px dotted rgb(238, 181, 26);;
+    border:2px dotted rgb(238, 181, 26);
     border-left:none;
     border-right:none;
+    position: relative;
+    padding: 12px 0;
+    width: 100%;
+    position: fixed;
+    z-index:999;
+    transition: .8s;
+
+}
+
+.stick{
+    background-color:  rgba(255, 255, 0, 0.808);
+    opacity: 0.1  1;
+    transform:translateY(-125px);
+}
+
+nav .fa-bars{
+   position: absolute;
+    display: none;
+    top: 4px;
+    right: 65px;
 }
 ul a{
     text-decoration: none;
@@ -49,10 +73,17 @@ ul li button{
     color:rgb(238, 181, 26);
     margin-bottom: 10px;
 }
+main{
+    width: 100%;
+    margin: 25px 0;
+    margin-top: 120px;
+}
 main img{
-    width:700px;
-    margin:0 auto;
-    margin-left: 20%;
+    width:50%;
+    margin: 0 auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
 }
 main h1{
     font-family: 'Satisfy', cursive;
@@ -133,6 +164,7 @@ main{
 .honey-about{
     display:flex;
     width:85%;
+    
 }
 .honey-ab img{
     margin: 20px;
@@ -146,9 +178,7 @@ main{
     margin: 20px 10px; 
     color:#555;
 }
-.honey-about2{
-    margin-top: -120px;
-}
+
 
 .about-item{
     margin-top: 20px;
@@ -161,4 +191,22 @@ main{
     width: 40px;
     margin-bottom: -33px;
 }
-
+.about-item{
+    margin-bottom: 20px;
+}
+button{
+   padding: 5px;
+    background-color: rgba(255, 255, 0, 0.822);
+    border-radius:10px;
+    color:white;
+    
+    position: fixed;
+    z-index:999;
+    top: 150px;
+    opacity: 0;
+}
+.scrolBtn{
+    opacity: 1;
+    z-index:999;
+ 
+}
